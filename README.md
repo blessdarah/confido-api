@@ -1,4 +1,4 @@
-# Confio API with Ts
+# Confido API with TS
 
 ## Resources
 
