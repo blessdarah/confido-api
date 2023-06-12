@@ -2,7 +2,8 @@ import express, { Request, Response, json } from "express";
 import dotenv from "dotenv";
 import userRouter from "./routes/UserRoute";
 
-dotenv.config();
+dotenv.config(); // load env variables from .env
+
 const app = express();
 
 app.use(json());
